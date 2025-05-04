@@ -38,17 +38,11 @@ Open `.env` and configure the following mail settings:
 MAIL_MAILER=smtp
 
 MAIL_HOST=smtp.gmail.com
-
 MAIL_PORT=587
-
 MAIL_USERNAME=your_email@gmail.com # Replace with your actual email
-
 MAIL_PASSWORD=your_password # Replace with your actual password
-
 MAIL_ENCRYPTION=tls
-
 MAIL_FROM_ADDRESS=your_email@gmail.com
-
 MAIL_FROM_NAME="${APP_NAME}"
 
 ```
@@ -64,15 +58,10 @@ MAIL_FROM_NAME="${APP_NAME}"
 ```plaintext
 
 DB_CONNECTION=mysql
-
 DB_HOST=127.0.0.1
-
 DB_PORT=3306
-
 DB_DATABASE=construction_management_system
-
 DB_USERNAME=your_username # Replace with your actual username
-
 DB_PASSWORD=your_password # Replace with your actual password
 
 ```
